@@ -46,9 +46,9 @@ function newGame() {
   //Reset users input field
   document.querySelector('.inputs-Values').value = '';
   //Reset tries, and triesTaken by the user
-  numbersOfTries = 0;
+  numberOfTries = 0;
   document.querySelector('.final-output').textContent = "New game started! Guess a number between 1 and 100.";
-  document.querySelector('.tries-output').textContent = `Remaining tries: ${maxTries}`;
+  document.querySelector('.Tries-output').textContent = `Remaining tries: ${maxTries}`;
 }
 
 document.querySelector('.btnGuess').addEventListener('click', guessNumber);
